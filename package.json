@@ -1,0 +1,25 @@
+{
+  "name": "algorithm-draft",
+  "version": "0.0.1",
+  "description": "A collection of algorithms in literate programming",
+  "main": "index.js",
+  "scripts": {
+    "build": "td ./src  && sv ./src",
+    "test": "jest --coverage"
+  },
+  "author": "mistlog",
+  "license": "MIT",
+  "dependencies": {
+    "mathjs": "^6.2.3",
+    "ts-priority-queue": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "source-view": "0.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typedraft": "0.0.3",
+    "typescript": "^3.6.2"
+  }
+}
