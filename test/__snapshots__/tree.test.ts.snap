@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`binary tree huffman 1`] = `
+HuffmanNode {
+  "m_Info": 238,
+  "m_Left": HuffmanNode {
+    "m_Info": 95,
+    "m_Left": HuffmanNode {
+      "m_Info": 42,
+      "m_Left": NumberNode {
+        "m_Info": 19,
+        "m_Left": null,
+        "m_Right": null,
+      },
+      "m_Right": NumberNode {
+        "m_Info": 23,
+        "m_Left": null,
+        "m_Right": null,
+      },
+    },
+    "m_Right": HuffmanNode {
+      "m_Info": 53,
+      "m_Left": HuffmanNode {
+        "m_Info": 24,
+        "m_Left": NumberNode {
+          "m_Info": 11,
+          "m_Left": null,
+          "m_Right": null,
+        },
+        "m_Right": NumberNode {
+          "m_Info": 13,
+          "m_Left": null,
+          "m_Right": null,
+        },
+      },
+      "m_Right": NumberNode {
+        "m_Info": 29,
+        "m_Left": null,
+        "m_Right": null,
+      },
+    },
+  },
+  "m_Right": HuffmanNode {
+    "m_Info": 143,
+    "m_Left": HuffmanNode {
+      "m_Info": 65,
+      "m_Left": NumberNode {
+        "m_Info": 31,
+        "m_Left": null,
+        "m_Right": null,
+      },
+      "m_Right": HuffmanNode {
+        "m_Info": 34,
+        "m_Left": HuffmanNode {
+          "m_Info": 17,
+          "m_Left": NumberNode {
+            "m_Info": 7,
+            "m_Left": null,
+            "m_Right": null,
+          },
+          "m_Right": HuffmanNode {
+            "m_Info": 10,
+            "m_Left": NumberNode {
+              "m_Info": 5,
+              "m_Left": null,
+              "m_Right": null,
+            },
+            "m_Right": HuffmanNode {
+              "m_Info": 5,
+              "m_Left": NumberNode {
+                "m_Info": 2,
+                "m_Left": null,
+                "m_Right": null,
+              },
+              "m_Right": NumberNode {
+                "m_Info": 3,
+                "m_Left": null,
+                "m_Right": null,
+              },
+            },
+          },
+        },
+        "m_Right": NumberNode {
+          "m_Info": 17,
+          "m_Left": null,
+          "m_Right": null,
+        },
+      },
+    },
+    "m_Right": HuffmanNode {
+      "m_Info": 78,
+      "m_Left": NumberNode {
+        "m_Info": 37,
+        "m_Left": null,
+        "m_Right": null,
+      },
+      "m_Right": NumberNode {
+        "m_Info": 41,
+        "m_Left": null,
+        "m_Right": null,
+      },
+    },
+  },
+}
+`;
