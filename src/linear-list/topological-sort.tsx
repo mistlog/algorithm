@@ -56,7 +56,7 @@ digraph G {
 
 For example, if we have $1<2$,$1<3$,$0<1$ and $-1<1$, then the info associated with $1$ would be:
 
-```json
+```typescript
 {
     m_DirectPredecessorsCount:2,
     m_DirectSuccessors:[2,3]
@@ -156,7 +156,7 @@ digraph G {
 ```
 
 at this point, the output array is
-```json
+```typescript
 [0,2]
 ```
 

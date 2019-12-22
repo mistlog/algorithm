@@ -10,7 +10,7 @@ export class Item {
 ```
 
 The item is in the form of $ ax^{e_1}y^{e_2}z^{e_3} $, and $ -6xy^{5} = -6x^{1}y^{5}z^{0} $ will be represented as: 
-```json
+```typescript
 {
     m_Coefficient:-6,
     m_Exponential:150
@@ -28,7 +28,7 @@ export class Polynomial {
 ```
 
 As for polynomial, $x^6-6xy^5+5y^6$  would be represented as:
-```json
+```typescript
 [
     {
         m_Coefficient:1,
